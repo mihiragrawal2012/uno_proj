@@ -1,4 +1,4 @@
-```md
+
 # Mini RAG System (Emails)
 
 Build a Retrieval-Augmented Generation (RAG) pipeline that ingests a dataset of synthetic emails, chunks them, embeds chunks, retrieves relevant context via similarity search, and (optionally) uses an LLM to answer questions grounded in retrieved evidence.
@@ -28,7 +28,7 @@ The pipeline is robust to minor variations (e.g., missing `Date:`).
 
 ## Repo Layout
 
-```
+
 
 mini-rag/
 emails/                     # dataset (100 synthetic email txt files)
@@ -42,7 +42,7 @@ meta.jsonl                # metadata aligned with FAISS ids (JSONL)
 requirements.txt
 README.md
 
-````
+
 
 ---
 
@@ -54,7 +54,7 @@ README.md
 python -m venv .venv
 source .venv/bin/activate      # mac/linux
 # .venv\Scripts\activate       # windows
-````
+```
 
 ### 2) Install dependencies
 
